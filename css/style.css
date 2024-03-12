@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin: auto;
+} 
+
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000006b;
+    background-blend-mode: multiply;
+    background-position: left;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{}
+
+.logo h2{
+    
+line-height: 1;
+}
+
+.logo h2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.logo h2 a span{
+    font-weight: 200;
+    font-size: 19px;
+}
+
+nav{}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 25px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    border: 2px solid ;
+    padding: 10px 15px;
+    border-radius: 30px;
+
+}
+
+/* banner */
+.banner{
+    text-align: center;
+    padding: 110px 0;
+    color: white;
+}
+
+.banner h3{
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.banner h1{
+    font-size: 46px;
+}
+.banner span{
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.banner button{
+    padding: 14px 17px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #590780eb;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+}
+
+/* upcomming start */
+
+.upcomming{
+    text-align: center;
+    margin: 50px 0 60px;
+}
+
+.upcomming span{ 
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+    margin: 0 auto 50px;
+
+}
+
+.upcomming h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.upcomming-parent{
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+.upcomming-item{
+    width: 450px;
+    margin: auto;
+    /* padding: 30px; */
+}
+
+
+.upcomming-item img{
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px #c7c6c6ba;
+}
+
+.upcomming-item h4{}
+
+.upcomming-item a{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #9823c6;
+    text-decoration: none;
+}
+/* explore start */
+
+.explore-main {
+    background-image: url(../images/father.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #1c6de0b9;
+    background-attachment: fixed;
+}
+
+.explore{
+    display: flex;
+}
+
+.explore-item{
+    color: white;
+    width: 50%;
+}@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin: auto;
+} 
+
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000006b;
+    background-blend-mode: multiply;
+    background-position: left;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{}
+
+.logo h2{
+    
+line-height: 1;
+}
+
+.logo h2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.logo h2 a span{
+    font-weight: 200;
+    font-size: 19px;
+}
+
+nav{}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 25px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    border: 2px solid ;
+    padding: 10px 15px;
+    border-radius: 30px;
+
+}
+
+/* banner */
+.banner{
+    text-align: center;
+    padding: 110px 0;
+    color: white;
+}
+
+.banner h3{
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.banner h1{
+    font-size: 46px;
+}
+.banner span{
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.banner button{
+    padding: 14px 17px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #590780eb;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+}
+
+/* upcomming start */
+
+.upcomming{
+    text-align: center;
+    margin: 50px 0 60px;
+}
+
+.upcomming span{ 
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+    margin: 0 auto 50px;
+
+}
+
+.upcomming h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.upcomming-parent{
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+.upcomming-item{
+    width: 450px;
+    margin: auto;
+    /* padding: 30px; */
+}
+
+
+.upcomming-item img{
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px #c7c6c6ba;
+}
+
+.upcomming-item h4{}
+
+.upcomming-item a{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #9823c6;
+    text-decoration: none;
+}
+/* explore start */
+
+.explore-main {
+    background-image: url(../images/father.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #1c6de0b9;
+    background-attachment: fixed;
+}
+
+.explore{
+    display: flex;
+}
+
+.explore-item{
+    color: white;
+    width: 50%;
+}
+
+.explore-item h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.explore-item span{
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+    margin: 10px 0 30px;
+}
+
+.explore-item p{}
+
+.explore-item a{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #d4ed18;
+    text-decoration: none;
+}
+
+/* tour start */
+
+.tour{
+    display: flex;
+    margin: 80px 0;
+}
+
+.tour-item{
+    width: 33.33%;
+    margin: 10px;
+}
+
+.tour-item h3{
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.tour-item span{
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+    margin: 10px 0 30px;
+}
+
+.tour-item p{
+    margin-bottom: 40px 0;
+}
+
+.tour-item button{
+    padding: 14px 17px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #590780eb;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+}
+
+.tour-item img{}
+
+.image-one{
+    height: 400px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.image-two{
+    height: 550px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+
+.explore-item h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.explore-item span{
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+    margin: 10px 0 30px;
+}
+
+.explore-item p{}
+
+.explore-item a{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #d4ed18;
+    text-decoration: none;
+}
+
+/* tour start */
+
+.tour{
+    display: flex;
+    margin: 80px 0;
+}
+
+.tour-item{
+    width: 33.33%;
+    margin: 10px;
+}
+
+.tour-item h3{
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.tour-item span{
+    height: 4px;
+    display: block;
+    width: 100px;
+    background-color: #780da4f2;
+    margin: auto;
+    border-radius: 50px;
+    margin: 10px 0 30px;
+}
+
+.tour-item p{
+    margin-bottom: 40px 0;
+}
+
+.tour-item button{
+    padding: 14px 17px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #590780eb;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+}
+
+.tour-item img{}
+
+.image-one{ 
+    height: 400px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+
+}
+
+.image-two{
+    height: 550px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+
+}
+footer{
+    background-color: #8b1bb7;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}
